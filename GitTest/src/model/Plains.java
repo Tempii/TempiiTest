@@ -2,11 +2,12 @@ package model;
 
 public class Plains extends Biome{
 
-	int hills;
+
+	int maxGroundHeight;
 	
-	public Plains (int width, int height, int hills){
+	public Plains (int width, int height, int mgh){
 		super(width, height);
-		this.hills = hills;
+		maxGroundHeight = mgh;
 	}
 	
 }
