@@ -10,7 +10,7 @@ public class Bird extends Enemy {
 	}
 
 	public void fly() {
-
+//normale Flugfunktion
 	}
 
 	public void flyHigh() {
