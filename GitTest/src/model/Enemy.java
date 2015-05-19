@@ -1,6 +1,6 @@
 package model;
 
-public class Enemy {
+public abstract class Enemy {
 
 	int speed;
 	
