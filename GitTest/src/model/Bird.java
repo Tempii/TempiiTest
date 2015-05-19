@@ -9,4 +9,8 @@ public class Bird extends Enemy{
 		this. height = height;
 	}
 	
+	public void fly(){
+		
+	}
+	
 }
