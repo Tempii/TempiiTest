@@ -8,4 +8,8 @@ public class Enemy {
 		this.speed = speed;
 	}
 	
+	public void attack(){
+		
+	}
+	
 }
