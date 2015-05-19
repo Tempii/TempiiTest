@@ -2,8 +2,11 @@ package model;
 
 public class Bird extends Enemy{
 
-	public Bird (int speed){
+	int height;
+	
+	public Bird (int speed, int height){
 		super(speed);
+		this. height = height;
 	}
 	
 }

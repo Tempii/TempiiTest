@@ -7,5 +7,6 @@ public abstract class Enemy {
 	public Enemy(int speed){
 		this.speed = speed;
 	}
+
 	
 }
