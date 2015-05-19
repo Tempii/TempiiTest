@@ -7,7 +7,10 @@ public class Plains extends Biome{
 	
 	public Plains (int width, int height, int mgh){
 		super(width, height);
-		maxGroundHeight = mgh;
+		if(mgh >= 0 && mgh < 5)
+			maxGroundHeight = mgh;
+		else
+			maxGroundHeight = 1;
 	}
 	
 }
