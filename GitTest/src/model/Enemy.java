@@ -9,7 +9,7 @@ public abstract class Enemy {
 	}
 
 	public void attack1() {
-
+// standard
 	}
 
 	public void attack2() {
