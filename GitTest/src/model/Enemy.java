@@ -8,12 +8,19 @@ public abstract class Enemy {
 		this.speed = speed;
 	}
 
+
 	public void attack1() {
 		//special attack 1
 	}
 
+
 	public void attack2() {
 		//special attack 2
+	}
+
+
+	public void move() {
+
 	}
 
 }
